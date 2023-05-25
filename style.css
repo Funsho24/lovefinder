@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#love{
+    background-image: url(./images/Rectangle\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+#love h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+}
+#love button{
+    background-color: white;
+    width: 147px;
+    height: 40px;
+    color: #7c0b0b;
+    border-radius: 10px;
+    font-size: 16px;
+}
+#myaccount{
+    background-color: #7c0b0b;
+    color: white;
+    width: 137px;
+        height: 40px;
+        border-radius: 10px;
+
+}
+
+
+@media(max-width:500px){
+    #love h1{
+        font-size: 20px;
+    }
+}
