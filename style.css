@@ -37,6 +37,9 @@
 }
 .om{
     padding-left: 40px;
+    border: 1px solid #7c0b0b;
+    width: 587px;
+        height: 651px
 }
 .om form input{
 width: 463px;
@@ -44,6 +47,7 @@ height: 42px;
 outline: none;
 padding-left: 5px;
 }
+
 .om form select{
     width: 463px;
         height: 42px;
@@ -97,6 +101,9 @@ padding-left: 5px;
     font-weight:500 ;
     line-height: 19px;
     margin-top: 17px;
+}
+.op{
+    border: 1px solid #7c0b0b;
 }
 .bk{
     background-color: #7c0b0b;
@@ -215,6 +222,11 @@ color: #7c0b0b;
     .mobile-form{
         display: block;
     }
+    .om{
+        border: 1px solid #7c0b0b;
+        width: 100%;
+        height: 100%;
+    }
     .om form{
         width: 300px;
         height: 100%;
@@ -226,7 +238,7 @@ color: #7c0b0b;
         width: 100%;
     }
     .img img{
-        width: 375px;
+        width: 380px;
         height: 100%;
     }
     .any{
