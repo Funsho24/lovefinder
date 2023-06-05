@@ -243,8 +243,14 @@ color: #7c0b0b;
         width: 100%;
         height: 100%;
     }
-    .omo{
+    .omoo{
         width: 100%;
+    }
+    .omooo{
+        width: 100%;
+    }
+    .omo{
+        width: 90%;
     }
     .om form{
         width: 100%;
@@ -252,20 +258,23 @@ color: #7c0b0b;
         padding-right: 10px;
     }
     .om form input{
-        width: 100%;
+        width: 90%;
     }
     .om form select{
         width: 100%;
     }
     .pic{
         width: fit-content;
+        margin-top: 20px;
     }
     .img{
         width:fit-content;
     }
     .img img{
-        width: 100%;
-        height: 100%;
+        width: 95%;
+        height: 90%;
+        margin-top: 60px;
+        padding-left: 40px;
     }
     .aboutt{
         margin-left: 20px;
@@ -283,7 +292,7 @@ color: #7c0b0b;
     .rib1{
         position: absolute;
         /* bottom: 95px; */
-        right: 90px;
+        right: 80px;
     }
     .rib2{
         display: none;
