@@ -87,12 +87,20 @@ padding-left: 5px;
     width: 96px;
     height: 40px;
     border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    
     /* margin-left: 216px; */
 }
 .om form button a{
     color: white;
     text-decoration: none;
     font-size: 16px;
+}
+.fobot{
+    position: relative;
+    bottom: 15px;
 }
 .about{
     margin-top: 80px;
@@ -212,6 +220,13 @@ color: #7c0b0b;
     text-decoration: none;
         color: white;
 }
+.icons{
+    position: relative;
+    display: flex;
+    gap: 50px;
+    left: 100px;
+    bottom: 120px;
+}
 
 @media(max-width:500px){
     #love h1{
@@ -246,12 +261,14 @@ color: #7c0b0b;
         width: 100%;
     }
     .img{
-        width: 100%;
+        width:100%;
     }
     .img img{
-        width: 68%;
+        width: fit-content;
         height: 100%;
-        padding-left: 9px;
+    }
+    .aboutt{
+        margin-left: 20px;
     }
     .any{
         width: 90%;
@@ -269,6 +286,14 @@ color: #7c0b0b;
         right: 90px;
     }
     .rib2{
+        display: none;
+    }
+}
+@media(max-width:900px){
+    .rib2{
+        display: none;
+    }
+    .endbot{
         display: none;
     }
 }
